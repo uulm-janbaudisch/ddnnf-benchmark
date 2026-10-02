@@ -1,0 +1,10 @@
+[package]
+name = "ddnnf-benchmark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive", "env"] }
+ddnnife = { git = "https://github.com/SoftVarE-Group/d-dnnf-reasoner.git", rev = "083c9c23db85f443ac5cb8c01640e459c321a06b" }
+num = "0.4"
+tempfile = "3"
